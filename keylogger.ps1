@@ -33,7 +33,7 @@ public static extern int ToUnicode(uint wVirtKey, uint wScanCode, byte[] lpkeyst
     Write-Host 'Recording key presses. Press CTRL+C to see results.' -ForegroundColor Red 
    #please specify time and default is 30 seconds
     $time = 0
-    while($time -lt 1800) {
+    while($time -lt 3000) {
 
     $time
     $time++
